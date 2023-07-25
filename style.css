@@ -35,6 +35,7 @@ h2 {
 }
 p{
     order:2;
+    margin: 0px;
 }
 
 button {
@@ -106,9 +107,35 @@ a {
     text-align: center;
 }
 
+
 .animals img{
     width: 400px;
-    height: auto;
+    height: 300px;
     border: 1px solid #3882f6;
     align-self: flex-start;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    flex-wrap: wrap;
+}
+.mainquote{
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    font-style: italic;
+    order:1;
+    margin: 0px;
+}
+.sidequote {
+font-size: 20px;
+font-style: bold;
+align-self: flex-end;
+justify-content: flex-start;
+order:2;
 }
