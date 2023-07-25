@@ -4,7 +4,7 @@
     border-color: white;
     color: #f9faf8;
     box-sizing: border-box;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-direction: row;
 }
 
@@ -45,7 +45,7 @@ button {
 }
 
 img {  
-    width: 350px;  
+    width: 600px;  
     order:4;
     }  
 .container {
@@ -55,7 +55,7 @@ img {
     padding: 100px;
 }
 .logo {
-    width: 100px;
+    width: 200px;
     height: auto;
     order:0;
     padding:10px;
@@ -73,6 +73,15 @@ padding: 100px;
 padding-top: 20px;
 display: flex;
 justify-content: space-between;
-align-items: center;
+align-items: flex-start;
 gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    size: 30px;
+    text-size-adjust: 30px;
+    font-size: 30px;
+    align-self: center;
 }
