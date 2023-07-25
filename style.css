@@ -108,13 +108,15 @@ a {
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 
 .animals img{
     width: 400px;
     height: 300px;
-    border: 1px solid #3882f6;
+    border: 2px solid #3882f6;
     align-self: flex-start;
 }
 
@@ -124,6 +126,7 @@ a {
     align-items: center;
     background-color: #e5e7eb;
     flex-wrap: wrap;
+    padding: 30px;
 }
 .mainquote{
     font-size: 36px;
@@ -144,17 +147,18 @@ order:2;
 }
 .sign {
     display: flex;
+    flex: 1 1 0px;
     justify-content: center;
     flex-direction: row;
-    background-color: ;
+    padding: 30px;
 }
 .actionbox{
     display: flex;
     background-color: #3882f6;
     color: #e5e7eb;
     flex-direction: column;
-    width: 70%;
-    justify-content: flex-start;
+    width: 60%;
+    justify-content: center;
     align-items: baseline;
     align-content: center;
     margin: 0px;
@@ -162,8 +166,24 @@ order:2;
     flex-wrap: wrap;
     gap:0px;
     border-radius: 0px;
+    padding: 10px;
 }
 .bbutton {
     border-radius: 0px;
-    border: solid 2px white;
+    align-self: flex-end;
+    background-color: #3882f6;
+    justify-content: center;
+    justify-self: flex-end;
+    order: 2;
+    position: absolute;
+    right: 30%;
+    border: solid white 1px;
+}
+
+.end {
+    width: 100%;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
