@@ -1,7 +1,6 @@
 .links {
     display:flex;
     justify-content: space-between;
-    border-color: white;
     color: #f9faf8;
     box-sizing: border-box;
     align-items: flex-start;
@@ -10,8 +9,6 @@
 
 .header {
 background-color: #1f2937;
-border: 20px;
-border-color: white;
 }
 
 .main{
@@ -85,3 +82,23 @@ a {
     font-size: 30px;
     align-self: center;
 }
+.corpsetitle{
+    display: flex;
+    justify-content: center;
+}
+
+.animals{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.animals img{
+    width: 400px;
+    height: auto;
+    border: 1px solid #3882f6;
+    align-self: flex-start;
+
